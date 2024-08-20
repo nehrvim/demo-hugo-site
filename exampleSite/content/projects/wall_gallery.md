@@ -12,7 +12,7 @@ badges:
   - "Wallwork"
   - "Wooden work"
 image: /images/projects/wall_install.jpeg
-description: |-
+content: |-
   This project involved creating a visually appealing wall art gallery featuring framed photographs. 
   The design process included selecting the ideal wall space, determining the layout, and choosing the appropriate frame styles to complement the images. 
   The end result was a stunning and personalized display that showcased the homeowner's favorite memories.
