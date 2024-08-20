@@ -18,23 +18,23 @@ This project involved creating a visually appealing wall art gallery featuring f
 The design process included selecting the ideal wall space, determining the layout, and choosing the appropriate frame styles to complement the images. 
 The end result was a stunning and personalized display that showcased the homeowner's favorite memories.
 
-### Chapter 1: Project Planning and Design
+### Project Planning and Design
 
 The project began with a thorough discussion with the client to understand their vision for the wall gallery. We carefully considered the existing wall color, furniture layout, and overall interior style to create a cohesive and visually appealing design.
 
-### Chapter 2: Image Selection and Framing
+### Image Selection and Framing
 
 The client was actively involved in selecting the images for the gallery, ensuring that they reflected their personal style and preferences. Once the images were chosen, we worked together to select the perfect frames. Wooden frames were chosen to complement the warm tones of the room and create a classic aesthetic.
 
-### Chapter 3: Wall Preparation and Alignment
+### Wall Preparation and Alignment
 
 Before installation, the wall was carefully prepared to ensure a smooth and even surface. We used a laser level to precisely align the frames with the wall color codes, ensuring a symmetrical and visually pleasing arrangement.
 
-### Chapter 4: Frame Installation and Hanging
+### Frame Installation and Hanging
 
 The wooden frames were securely installed on the wall using a combination of screws and wall anchors. We took great care to ensure that the frames were level and centered, creating a professional and polished look.
 
-### Chapter 5: Interior Design and Finishing Touches
+### Interior Design and Finishing Touches
 
 To complete the project, we provided interior design recommendations to complement the wall gallery. This included suggestions for rugs, lighting, and additional artwork to create a harmonious and inviting atmosphere.
 
