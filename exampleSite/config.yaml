@@ -113,8 +113,8 @@ params:
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
+      enable: true
+      showOnScrollUp: true
     enableSeparator: false
     menus:
       disableAbout: false
@@ -128,19 +128,13 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    title: "Ferenc."
+    subtitle: "I building things for you"
+    content: "Need a handyman? Our experienced professional can handle a variety of tasks, from electrical work to furniture assembly. Let us take care of your home improvement projects so you can relax."
     image: /images/hero.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
-    button:
-      enable: true
-      name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -157,127 +151,95 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Hi there! I'm your neighborhood handyman, ready to lend a helping hand with your home improvement projects. 
+      I've been around for years, honing my skills and building a reputation for quality workmanship. 
+      Whether you need help with electrical installations, furniture assembly, or anything else around the house, I'm here to assist. 
+      I'm honest, reliable, and committed to providing excellent service. Let's get started on your project today!
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Electrical installations"
+        - "Painting"
+        - "Furniture assembly"
+        - "Indoor design"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
+      - job: "Wall Art Gallery"
         company: "Facebook"
         companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+        date: "Jan 2024 Aug"
         featuredLink:
           enable: true
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |- 
+            This project involved creating a visually appealing wall art gallery featuring framed photographs. 
+            The design process included selecting the ideal wall space, determining the layout, and choosing the appropriate frame styles to complement the images. 
+            The end result was a stunning and personalized display that showcased the homeowner's favorite memories."
 
-      - job: "Software Developer"
+      - job: "Cozy Kids' Room Transformation"
         company: "Amazon"
         companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        date: "Sep 2023"
         featuredLink:
           enable: true
           url: "https://example.com"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          content: Painting according to furniture and led installation
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+          This project involved creating a vibrant and functional space for a child's bedroom. 
+          The team painted the walls in cheerful colors and assembled new furniture pieces to match the desired aesthetic. 
+          To add a touch of magic, LED lights were strategically placed to create a cozy and inviting atmosphere. 
+          The completed room was a perfect blend of fun and relaxation, tailored to the child's unique personality.
+     
   # Education
-  education:
-    enable: true
-    # title: "Custom Name"
-    index: false
-    items:
-      - title: "Master of Business Administration"
-        school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+  # education:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   index: false
+  #   items:
+  #     - title: "Master of Business Administration"
+  #       school:
+  #         name: "University of California, Berkeley"
+  #         url: "https://example.org"
+  #       date: "2013 - 2015"
+  #       GPA: "3.8 out of 5.0"
+  #       content: |-
+  #         Extracurricular Activities
+  #           - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  #           - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+  #     - title: "Bachelor of Science in Computer Science"
+  #       school:
+  #         name: "Massachusetts Institute of Technology"
+  #         url: "https://example.org"
+  #       date: "2009 - 2013"
+  #       GPA: "3.9 out of 5.0"
+  #       content: |-
+  #         I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+  #         - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+  #         - Face mask detection using a single convolutional neural network.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+  #         Extracurricular Activities
+  #           - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  #           - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+  #       featuredLink:
+  #         enable: true
+  #         name: "My academic record"
+  #         url: "https://example.com"
+  #     - title: "High School"
+  #       school:
+  #         name: "Thomas Jefferson High School for Science and Technology."
+  #         url: "https://example.org"
+  #       GPA: "4.2 out of 5.0"
+  #       featuredLink:
+  #         enable: true
+  #         url: "https://example.com"
 
   # Achievements
   achievements:
@@ -373,9 +335,9 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
+      # github: https://github.com
       linkedin: https://linkedin.com
-      twitter: https://twitter.com
+      # twitter: https://twitter.com
       instagram: https://instagram.com
       facebook: https://facebook.com
 
@@ -400,7 +362,7 @@ params:
     toc: "Table Of Contents"
     copyright: "All rights reserved"
     pageNotFound: "Page not found"
-    emailText: "Check out this site"
+    emailText: "test@mail.com"
 
   datesFormat:
     article: "Jan 2, 2006"
