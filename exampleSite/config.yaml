@@ -127,11 +127,11 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Ferenc."
+    intro: "Hi, I'm your right hand in case of handywork"
+    title: "Ferenc"
     subtitle: "I building things for you"
     content: "Need a handyman? Our experienced professional can handle a variety of tasks, from electrical work to furniture assembly. Let us take care of your home improvement projects so you can relax."
-    image: /images/self.jpg
+    image: /images/interior.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
