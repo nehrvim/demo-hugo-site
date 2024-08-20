@@ -279,47 +279,36 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Wall Art Gallery"
-        company: "Handyman Work 1"
+      - job: "Handyman"
+        company: "Handyman"
         companyUrl: "https://example.com"
-        date: "Jan 2024 Aug"
+        date: "Jan 2023 - present"
         featuredLink:
           enable: true
           name: "View the project"
           url: "https://example.com"
         content: |- 
-            This project involved creating a visually appealing wall art gallery featuring framed photographs. 
-            The design process included selecting the ideal wall space, determining the layout, and choosing the appropriate frame styles to complement the images. 
-            The end result was a stunning and personalized display that showcased the homeowner's favorite memories.
+            As a handyman, I've had the opportunity to work on a wide range of projects, from small repairs to major renovations. 
+            I've gained experience in painting, plumbing, electrical work, carpentry, and appliance repair. 
+            I'm skilled at problem-solving and can efficiently complete tasks, often working independently. 
+            I pride myself on my reliability and attention to detail, ensuring that every job is done to the highest standard.
 
-      - job: "Cozy Kids' Room Transformation"
-        company: "Handyman Work 2"
+      - job: "Handtool Smith"
+        company: "Handtool Designer and Smith"
         companyUrl: "https://example.com"
-        date: "Sep 2023"
+        date: "Sep 2016 - present"
         featuredLink:
           enable: true
           name: "View my project"
           url: "https://example.com"
         info:
           enable: true
-          content: Painting according to furniture and led installation
+          content: Designing and crafting various special handtools
         content: |
-          This project involved creating a vibrant and functional space for a child's bedroom. 
-          The team painted the walls in cheerful colors and assembled new furniture pieces to match the desired aesthetic. 
-          To add a touch of magic, LED lights were strategically placed to create a cozy and inviting atmosphere. 
-          The completed room was a perfect blend of fun and relaxation, tailored to the child's unique personality.
-      
-      - job: "Viking Axe Replica"
-        company: "Tool Production"
-        companyUrl: "https://example.com"
-        date: "Sep 2023"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I crafted a replica of a Danish Viking axe, incorporating traditional rune designs that reflect the rich heritage of Norse culture. 
-          The axe was forged from steel and features intricate details inspired by historical artifacts. 
-          This project was a labor of love, allowing me to connect with my Scandinavian roots and appreciate the craftsmanship of Viking smiths.
+          As a handtool designer and smith, I combine my technical expertise with traditional blacksmithing techniques to create unique and functional tools. 
+          I specialize in designing and forging hand tools for a variety of applications, from woodworking and metalworking to gardening and household tasks. 
+          My work involves researching historical tools, sketching designs, crafting prototypes, and overseeing the forging process. 
+          I am dedicated to producing high-quality tools that are both durable and aesthetically pleasing, honoring the rich heritage of blacksmithing while embracing modern design principles.
 
   #Contact
   contact:
