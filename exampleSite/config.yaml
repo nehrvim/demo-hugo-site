@@ -242,7 +242,7 @@ params:
         image: /images/projects/wall_install.jpeg
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          relref: /projects/wall_gallery.md
         badges:
           - "Indoor design"
           - "Wallwork"
