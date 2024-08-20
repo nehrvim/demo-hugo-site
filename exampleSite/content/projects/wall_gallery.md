@@ -7,6 +7,10 @@ author: "Feri"
 tags:
   - Wooden work
   - Wall work
+badges:
+  - "Indoor design"
+  - "Wallwork"
+  - "Wooden work"
 image: /images/projects/wall_install.jpeg
 description: |-
   This project involved creating a visually appealing wall art gallery featuring framed photographs. 
