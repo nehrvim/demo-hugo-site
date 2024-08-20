@@ -1,5 +1,5 @@
 ---
-title: "Wall Gallery"
+title: "Wall Art Gallery"
 date: 2021-04-03T22:53:58+05:30
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"
@@ -8,15 +8,14 @@ tags:
   - Wooden work
   - Wall work
 image: /images/projects/wall_install.jpeg
-description: ""
+description: |-
+  This project involved creating a visually appealing wall art gallery featuring framed photographs. 
+  The design process included selecting the ideal wall space, determining the layout, and choosing the appropriate frame styles to complement the images. 
+  The end result was a stunning and personalized display that showcased the homeowner's favorite memories.
 toc: 
 ---
 
 ## Wall Gallery Installation Project
-
-This project involved creating a visually appealing wall art gallery featuring framed photographs. 
-The design process included selecting the ideal wall space, determining the layout, and choosing the appropriate frame styles to complement the images. 
-The end result was a stunning and personalized display that showcased the homeowner's favorite memories.
 
 ### Project Planning and Design
 
