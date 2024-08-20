@@ -1,5 +1,5 @@
 ---
-title: "Wall Art Gallery"
+title: "Cozy Kids' Room Transformation"
 date: 2021-04-03T22:53:58+05:30
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"
@@ -8,14 +8,16 @@ tags:
   - Wooden work
   - Wall work
 badges:
-  - "Indoor design"
-  - "Wallwork"
-  - "Wooden work"
-image: /images/projects/wall_install.jpeg
+  - "Furniture assembly"
+  - "Paiting"
+  - "Interior design"
+  - "Electrical work"
+image: /images/projects/kids_room.jpeg
 content: |-
-  This project involved creating a visually appealing wall art gallery featuring framed photographs. 
-  The design process included selecting the ideal wall space, determining the layout, and choosing the appropriate frame styles to complement the images. 
-  The end result was a stunning and personalized display that showcased the homeowner's favorite memories.
+    This project involved creating a vibrant and functional space for a child's bedroom. 
+    The team painted the walls in cheerful colors and assembled new furniture pieces to match the desired aesthetic. 
+    To add a touch of magic, LED lights were strategically placed to create a cozy and inviting atmosphere. 
+    The completed room was a perfect blend of fun and relaxation, tailored to the child's unique personality.
   
 toc: 
 ---

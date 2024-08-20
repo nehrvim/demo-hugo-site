@@ -233,46 +233,46 @@ params:
   projects:
     enable: true
     # title: "Custom Name"
-    items:
-      - title: Wall Art Gallery
-        content: |-
-            This project involved creating a visually appealing wall art gallery featuring framed photographs. 
-            The design process included selecting the ideal wall space, determining the layout, and choosing the appropriate frame styles to complement the images. 
-            The end result was a stunning and personalized display that showcased the homeowner's favorite memories.
-        image: /images/projects/wall_install.jpeg
-        featured:
-          name: Demo
-          relref: /projects/wall_gallery.md
-        badges:
-          - "Indoor design"
-          - "Wallwork"
-          - "Wooden work"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+    # items:
+    #   - title: Wall Art Gallery
+    #     content: |-
+    #         This project involved creating a visually appealing wall art gallery featuring framed photographs. 
+    #         The design process included selecting the ideal wall space, determining the layout, and choosing the appropriate frame styles to complement the images. 
+    #         The end result was a stunning and personalized display that showcased the homeowner's favorite memories.
+    #     image: /images/projects/wall_install.jpeg
+    #     featured:
+    #       name: Demo
+    #       relref: /projects/wall_gallery.md
+    #     badges:
+    #       - "Indoor design"
+    #       - "Wallwork"
+    #       - "Wooden work"
+    #     links:
+    #       - icon: fa fa-envelope
+    #         url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+    #       - icon: fab fa-github
+    #         url: https://github.com/gurusabarish/hugo-profile
+    #       - icon: fab fa-twitter
+    #         url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Cozy Kids' Room Transformation
-        content: |-
-          This project involved creating a vibrant and functional space for a child's bedroom. 
-          The team painted the walls in cheerful colors and assembled new furniture pieces to match the desired aesthetic. 
-          To add a touch of magic, LED lights were strategically placed to create a cozy and inviting atmosphere. 
-          The completed room was a perfect blend of fun and relaxation, tailored to the child's unique personality.
-        image: /images/projects/kids_room.jpeg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Furniture assembly"
-          - "Paiting"
-          - "Interior design"
-          - "Electrical work"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+    #   - title: Cozy Kids' Room Transformation
+    #     content: |-
+    #       This project involved creating a vibrant and functional space for a child's bedroom. 
+    #       The team painted the walls in cheerful colors and assembled new furniture pieces to match the desired aesthetic. 
+    #       To add a touch of magic, LED lights were strategically placed to create a cozy and inviting atmosphere. 
+    #       The completed room was a perfect blend of fun and relaxation, tailored to the child's unique personality.
+    #     image: /images/projects/kids_room.jpeg
+    #     featured:
+    #       name: Demo
+    #       link: https://django-converter.herokuapp.com
+    #     badges:
+    #       - "Furniture assembly"
+    #       - "Paiting"
+    #       - "Interior design"
+    #       - "Electrical work"
+    #     links:
+    #       - icon: fab fa-github
+    #         url: https://github.com/gurusabarish/converter
 
   # Experience
   experience:
