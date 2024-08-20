@@ -7,12 +7,16 @@ author: "Feri"
 tags:
   - Wooden work
   - Wall work
-image: /images/wall_install.jpeg
+image: /images/projects/wall_install.jpeg
 description: ""
 toc: 
 ---
 
 ## Wall Gallery Installation Project
+
+This project involved creating a visually appealing wall art gallery featuring framed photographs. 
+The design process included selecting the ideal wall space, determining the layout, and choosing the appropriate frame styles to complement the images. 
+The end result was a stunning and personalized display that showcased the homeowner's favorite memories.
 
 ### Chapter 1: Project Planning and Design
 
