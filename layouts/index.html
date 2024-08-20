@@ -2,6 +2,7 @@
 <meta name="description" content={{ .Site.Params.description }}>
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/index.css" media="all">
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/projects.css" media="all">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/members.css" media="all">
 
 <!-- fontawesome -->
 <script defer src="{{ .Site.Params.staticPath }}/fontawesome-6/all-6.4.2.js"></script>
@@ -14,6 +15,7 @@
 {{ define "main" }}
 {{- partial "sections/hero/index.html" . -}}
 {{- partial "sections/about.html" . -}}
+{{- partial "sections/members.html" . -}}
 {{- partial "sections/experience.html" . -}}
 {{- partial "sections/education.html" . -}}
 {{- partial "sections/projects.html" . -}}
