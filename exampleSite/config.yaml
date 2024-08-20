@@ -131,7 +131,7 @@ params:
     title: "Ferenc."
     subtitle: "I building things for you"
     content: "Need a handyman? Our experienced professional can handle a variety of tasks, from electrical work to furniture assembly. Let us take care of your home improvement projects so you can relax."
-    image: /images/hero.svg
+    image: /images/self.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -149,7 +149,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/self.jpg"
     content: |-
       Hi there! I'm your neighborhood handyman, ready to lend a helping hand with your home improvement projects. 
       I've been around for years, honing my skills and building a reputation for quality workmanship. 
@@ -170,7 +170,7 @@ params:
     # title: "Custom Name"
     items:
       - job: "Wall Art Gallery"
-        company: "Handyman"
+        company: "Handyman Work 1"
         companyUrl: "https://example.com"
         date: "Jan 2024 Aug"
         featuredLink:
@@ -183,7 +183,7 @@ params:
             The end result was a stunning and personalized display that showcased the homeowner's favorite memories.
 
       - job: "Cozy Kids' Room Transformation"
-        company: "Handyman"
+        company: "Handyman Work 2"
         companyUrl: "https://example.com"
         date: "Sep 2023"
         featuredLink:
@@ -200,7 +200,7 @@ params:
           The completed room was a perfect blend of fun and relaxation, tailored to the child's unique personality.
       
       - job: "Viking Axe Replica"
-        company: "Axe Design"
+        company: "Tool Production"
         companyUrl: "https://example.com"
         date: "Sep 2023"
         featuredLink:
