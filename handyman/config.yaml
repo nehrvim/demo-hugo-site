@@ -194,9 +194,9 @@ params:
   achievements:
     enable: true
     title: "My Team"
-    openInNewTab: false
     items:
       - title: Meet Nikoletta
+        openInNewTab: false
         content: >-
                 a talented craftswoman with a passion for creating beautiful, handcrafted pieces. 
                 With her keen eye for detail and exceptional communication skills, she's able to bring her creative 
@@ -204,7 +204,6 @@ params:
         url: team/niki/
         image: /images/projects/woman_tools.jpg
       - title: Meet Petra
-        openInNewTab: false
         content: >-
                 a talented artist who seamlessly blends the worlds of tattooing and graphic design. 
                 With a keen eye for detail and a passion for creativity, she transforms blank canvases into stunning 
