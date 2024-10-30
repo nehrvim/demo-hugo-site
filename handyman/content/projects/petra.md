@@ -6,8 +6,8 @@ draft: false
 # github_link: "https://github.com/gurusabarish/hugo-profile"
 author: "Petra"
 tags:
-  - Wooden work
-  - Wall work
+  - Graphics
+  - 
 badges:
   - "Furniture assembly"
   - "Paiting"
@@ -19,9 +19,6 @@ description: "test description blabla"
 toc: false
 ---
   > Meet Petra, a talented artist who seamlessly blends the worlds of tattooing and graphic design. 
-  > With a keen eye for detail and a passion for creativity, she transforms blank canvases into stunning 
-  > works of art. Her intricate tattoo designs are a testament to her skill and artistry, while her graphic 
-  > design work showcases her versatility and innovative approach.
 
   # Introduction
 

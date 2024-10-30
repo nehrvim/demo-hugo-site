@@ -20,8 +20,6 @@ image: /images/projects/woman_tools.jpg
 toc: false
 ---
   > Meet Nikoletta, a talented craftswoman with a passion for creating beautiful, handcrafted pieces. 
-  > With her keen eye for detail and exceptional communication skills, she's able to bring her creative 
-  > vision to life and connect with clients on a personal level.
 
   # Introduction
 
