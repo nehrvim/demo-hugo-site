@@ -1,7 +1,7 @@
 {{ if .Site.Params.members.enable | default false }}
 <section id="members" class="py-5">
     <div class="container">
-        <h3 class="text-center">{{ .Site.Params.members.title | default "Team" }}</h3>
+        <h3 class="text-center">{{ .Site.Params.members.title | default "My Team" }}</h3>
         <div class="row justify-content-center px-3 px-md-5">
             {{ range .Site.Params.members.items }}
             <div class="col-lg-4 col-md-6 my-3">
@@ -24,14 +24,14 @@
                     <div class="card-footer py-3">
                         {{ range .links }}
                         <span class="m-1 mx-2">
-                            <a href="{{ .url }}" target="_self">
+                            <a href="{{ .url }}" target="_blank">
                                 <i class="{{ .icon }}"></i>
                             </a>
                         </span>
                         {{ end }}
                         {{ if .featured }}
                         <span class="float-end">
-                            <a class="btn btn-sm" href="{{ .featured.link }}" target="_self">
+                            <a class="btn btn-sm" href="{{ .featured.link }}" target="_blank">
                                 {{ .featured.name }}
                             </a>
                         </span>
@@ -42,10 +42,11 @@
             </div>
             {{ end }}
             {{ range ( where .Site.RegularPages "Type" "members" ) }}
+            {{ if .Params.showInHome | default true }}
             <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="{{ .Params.title }}">
+                <div class="card my-3 h-100" title="{{ .Title }}">
                     <div class="card-head">
-                        <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Params.title }}">
+                        <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
                     </div>
                     <div class="card-body bg-transparent p-3">
                         <div class="pb-2 bg-transparent">
@@ -53,31 +54,28 @@
                             <span class="badge badge-secondary">{{ . }}</span>
                             {{ end }}
                         </div>
-                        <h5 class="card-title bg-transparent mt-1">{{ .Params.title }}</h5>
+                        <h5 class="card-title bg-transparent">{{ .Title | truncate 50 }}</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            {{ .Params.content }}
+                            {{ .Summary | truncate 100 | safeHTML }}
                         </div>
                     </div>
-                    {{ if or (.Params.links) (.Params.featured) }}
                     <div class="card-footer py-3">
                         {{ range .Params.links }}
                         <span class="m-1 mx-2">
-                            <a href="{{ .url }}" target="_blank">
+                            <a href="{{ .url }}">
                                 <i class="{{ .icon }}"></i>
                             </a>
                         </span>
                         {{ end }}
-                        {{ if .Params.featured }}
                         <span class="float-end">
-                            <a class="btn btn-sm" href="{{ .Params.featured.link }}" target="_blank">
-                                {{ .Params.featured.name }}
+                            <a class="btn btn-sm" href="{{ .RelPermalink }}">
+                                Know more
                             </a>
                         </span>
-                        {{ end }}
                     </div>
-                    {{ end }}
                 </div>
             </div>
+            {{ end }}
             {{ end }}
         </div>
     </div>
