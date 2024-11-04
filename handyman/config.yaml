@@ -212,10 +212,11 @@ params:
         url: team/petra/
         image: /images/projects/creative_woman.jpg
 
-  recentPosts:
-    path: "team"
-    count: 3
-    title: "TEst Team"
+  # Members
+  members:
+    enable: true
+    title: "Our Team Members"
+
     
   footer:
     recentPosts:

@@ -1,0 +1,85 @@
+{{ if .Site.Params.members.enable | default false }}
+<section id="members" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ .Site.Params.members.title | default "Team" }}</h3>
+        <div class="row justify-content-center px-3 px-md-5">
+            {{ range .Site.Params.members.items }}
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="{{ .title }}">
+                    <div class="card-head">
+                        <img class="card-img-top" src="{{ .image }}" alt="{{ .title }}">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            {{ range .badges }}
+                            <span class="badge badge-secondary">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            {{ .content }}
+                        </div>
+                    </div>
+                    {{ if or (.links) (.featured) }}
+                    <div class="card-footer py-3">
+                        {{ range .links }}
+                        <span class="m-1 mx-2">
+                            <a href="{{ .url }}" target="_self">
+                                <i class="{{ .icon }}"></i>
+                            </a>
+                        </span>
+                        {{ end }}
+                        {{ if .featured }}
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="{{ .featured.link }}" target="_self">
+                                {{ .featured.name }}
+                            </a>
+                        </span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            {{ range ( where .Site.RegularPages "Type" "members" ) }}
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="{{ .Params.title }}">
+                    <div class="card-head">
+                        <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Params.title }}">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            {{ range .Params.badges }}
+                            <span class="badge badge-secondary">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">{{ .Params.title }}</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            {{ .Params.content }}
+                        </div>
+                    </div>
+                    {{ if or (.Params.links) (.Params.featured) }}
+                    <div class="card-footer py-3">
+                        {{ range .Params.links }}
+                        <span class="m-1 mx-2">
+                            <a href="{{ .url }}" target="_blank">
+                                <i class="{{ .icon }}"></i>
+                            </a>
+                        </span>
+                        {{ end }}
+                        {{ if .Params.featured }}
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="{{ .Params.featured.link }}" target="_blank">
+                                {{ .Params.featured.name }}
+                            </a>
+                        </span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
