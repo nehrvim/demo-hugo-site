@@ -194,11 +194,19 @@ params:
   achievements:
     enable: true
     title: "Achievements"
+    items:
+      - title: Test Achievements
+        openInNewTab: false
+        content: >-
+                Test
+        url: team/niki/
+        image: /images/projects/woman_tools.jpg
 
   # Members
   members:
     enable: true
     title: "Our Team Members"
+
     
   footer:
     recentPosts:
