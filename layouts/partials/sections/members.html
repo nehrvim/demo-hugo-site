@@ -17,7 +17,7 @@
                         </div>
                         <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            {{ .intorduction }}
+                            {{ .content }}
                         </div>
                     </div>
                     {{ if or (.links) (.featured) }}
@@ -56,7 +56,7 @@
                         </div>
                         <h5 class="card-title bg-transparent">{{ .Title | truncate 50 }}</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            {{ .intorduction }}
+                            {{ .content }}
                         </div>
                     </div>
                     <div class="card-footer py-3">
