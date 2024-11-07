@@ -15,7 +15,7 @@ badges:
   - "Interior design"
   - "Electrical work"
 image: /images/projects/woman_tools.jpg
-content: "test description blabla"
+introduction: "test description blabla"
   
 toc: false
 ---
