@@ -190,28 +190,6 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-  # Achievements
-  achievements:
-    enable: true
-    title: "My Team"
-    items:
-      - title: Meet Nikoletta
-        openInNewTab: false
-        content: >-
-                a talented craftswoman with a passion for creating beautiful, handcrafted pieces. 
-                With her keen eye for detail and exceptional communication skills, she's able to bring her creative 
-                vision to life and connect with clients on a personal level.
-        url: team/niki/
-        image: /images/projects/woman_tools.jpg
-      - title: Meet Petra
-        content: >-
-                a talented artist who seamlessly blends the worlds of tattooing and graphic design. 
-                With a keen eye for detail and a passion for creativity, she transforms blank canvases into stunning 
-                works of art. Her intricate tattoo designs are a testament to her skill and artistry, while her graphic 
-                design work showcases her versatility and innovative approach.
-        url: team/petra/
-        image: /images/projects/creative_woman.jpg
-
   # Members
   members:
     enable: true
