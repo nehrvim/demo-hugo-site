@@ -13,7 +13,6 @@ introduction: "Meet Petra, a talented artist who seamlessly blends the worlds of
   
 toc: false
 ---
-
   # Introduction
 
   Hi, I'm Petra. Let me introduce myself. I'm a talented artist who seamlessly blends the worlds of tattooing and graphic design. My main job is tattooing, which requires very good preparation, high-quality drawings, and planned designs. With a keen eye for detail and a passion for creativity, I transform blank canvases into stunning works of art. My intricate tattoo designs are a testament to my skill and artistry, while my graphic design work showcases my versatility and innovative approach. 
