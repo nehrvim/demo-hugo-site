@@ -127,10 +127,13 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, I'm your right hand in case of handywork"
+    intro: "Meet our team of professionals ready to implement your dream projects"
     title: "Frank's Handyman"
-    subtitle: "I implement your dreams come through"
-    content: "Need a handyman? Our experienced professional can handle a variety of tasks, from electrical work to furniture assembly. Let us take care of your home improvement projects so you can relax."
+    subtitle: "Let us make your dreams come true"
+    content: >-
+      Need a handyman? Our experienced professional can handle a variety of tasks,
+      from electrical work to furniture assembly.
+      Let us take care of your home improvement projects so you can relax.
     image: /images/interior.jpg
     bottomImage:
       enable: true
