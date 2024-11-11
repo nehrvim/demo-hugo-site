@@ -13,7 +13,7 @@ badges:
   - "Interior design"
   - "Electrical work"
 image: /images/projects/creative_woman.jpg
-introduction: "test description blabla"
+content: "test description blabla"
   
 toc: false
 ---
