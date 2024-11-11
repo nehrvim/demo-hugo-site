@@ -14,7 +14,12 @@ badges:
   - "Interior design"
   - "Electrical work"
 image: /images/projects/creative_woman.jpg
-description: "test description blabla"
+description: -|
+  Meet Petra, a talented artist with beautiful drawing and graphical 
+  skills. Petra's work is a harmonious blend of creativity and precision, 
+  showcasing her ability to bring imaginative concepts to life through her art. 
+  Whether it's intricate tattoo designs or stunning graphic illustrations, Petra's 
+  artistry is a testament to her dedication and passion for the craft.
   
 toc: false
 ---

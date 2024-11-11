@@ -4,18 +4,19 @@ date: 2021-04-03T22:53:58+05:30
 draft: false
 # github_link: "https://github.com/gurusabarish/hugo-profile"
 author: "Niki"
-tags:
-  - Creating Design
-  - Paitings
-  - Drawings
-  - Graphics
 badges:
   - "Furniture assembly"
   - "Paiting"
+  - "Crafts"
   - "Interior design"
-  - "Electrical work"
+  - "Communication"
 image: /images/projects/woman_tools.jpg
-introduction: "test description blabla"
+introduction: -|
+  Meet Nikoletta, a talented craftswoman known for her ability to create 
+  beautiful, handcrafted pieces. She possesses excellent communication skills, 
+  allowing her to connect with clients effectively. Her creativity and keen eye 
+  for detail enable her to bring her artistic visions to life. With a passion 
+  for her craft, Nikoletta consistently delivers exceptional work.
   
 toc: false
 ---
