@@ -13,7 +13,7 @@ badges:
   - "Interior design"
   - "Electrical work"
 image: /images/projects/creative_woman.jpg
-introduction: " Meet Petra, a talented artist who seamlessly blends the worlds of tattooing and graphic design. With a keen eye for detail and a passion for creativity, she transforms blank canvases into stunning works of art. Her intricate tattoo designs are a testament to her skill and artistry, while her graphic design work showcases her versatility and innovative approach."
+introduction: "Meet Petra, a talented artist who seamlessly blends the worlds of tattooing and graphic design. With a keen eye for detail and a passion for creativity, she transforms blank canvases into stunning works of art. Her intricate tattoo designs are a testament to her skill and artistry, while her graphic design work showcases her versatility and innovative approach."
   
 toc: false
 ---
