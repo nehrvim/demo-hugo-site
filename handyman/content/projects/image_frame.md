@@ -1,5 +1,5 @@
 ---
-title: "Image Installation with Decorative Frames"
+title: "Images with Decorative Frames"
 date: 2023-08-10T22:53:58+05:30
 draft: false
 # github_link: "https://github.com/gurusabarish/hugo-profile"
