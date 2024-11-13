@@ -8,8 +8,7 @@ badges:
   - "Handywork"
   - "Interior design"
 image: /images/projects/wall_install.jpg
-description: >|
-  The project aims to install images on a wall and add decorative frames around them, enhancing the design.
+description: "The project aims to install images on a wall and add decorative frames around them, enhancing the design."
 
 toc: true
 ---

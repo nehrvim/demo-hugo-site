@@ -9,8 +9,7 @@ badges:
   - "Interior design"
   - "Painting"
 image: /images/projects/kids_room.jpeg
-description: >|
-  This project involved designing and installing kids' room furniture, featuring a high bed for sleeping and ample space for play and study.
+description: "This project involved designing and installing kids' room furniture, featuring a high bed for sleeping and ample space for play and study."
 
 toc: true
 ---
