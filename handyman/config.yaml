@@ -155,15 +155,27 @@ params:
     enable: true
     title: "About Me"
     image: "/images/self.jpg"
-    content: |-
-      Let me introduce myself. I'm Ferenc I could be your neighborhood handyman, 
-      ready to lend a helping hand with your home improvement projects. 
-      I've been around for years, honing my skills and building a reputation for 
-      quality workmanship. 
-      Whether you need help with electrical installations, furniture assembly, or 
-      anything else around the house, I'm here to assist. 
-      I'm honest, reliable, and committed to providing excellent service. Let's get
-       started on your project today!
+    content: >-
+      Let me introduce myself. I'm Ferenc, your friendly neighborhood handyman, 
+      always ready to lend a helping hand with your home improvement projects. 
+      Over the years, I've honed my skills and built a solid reputation for quality 
+      workmanship and reliability. Whether you need assistance with electrical 
+      installations, furniture assembly, painting, or any other task around the house, 
+      I'm here to help. My commitment to providing excellent service is unwavering, 
+      and I take pride in delivering results that exceed your expectations.
+      My journey as a handyman began many years ago, driven by a passion for fixing things 
+      and a desire to help others. I've tackled a wide range of projects, from small repairs 
+      to large-scale renovations, and each one has taught me something new. My extensive 
+      experience means that I can handle just about any challenge that comes my way, and I 
+      always approach each job with the same level of dedication and attention to detail.
+      In addition to my technical skills, I believe that good communication and a friendly 
+      attitude are key to a successful working relationship. I make it a point to listen to 
+      my clients' needs and work closely with them to ensure that their vision becomes a reality. 
+      I'm honest, reliable, and always willing to go the extra mile to make sure you're satisfied 
+      with the results.
+      So, whether you're looking to update your home's electrical system, assemble new furniture, 
+      or give your living space a fresh coat of paint, you can count on me to get the job done right. 
+      Let's get started on your project today and turn your home improvement dreams into reality!
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
