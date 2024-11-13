@@ -7,7 +7,7 @@ author: "Niki"
 badges:
   - "Handywork"
   - "Interior design"
-image: /images/projects/wall_install.jpg
+image: /images/projects/wall_install.jpeg
 description: "The project aims to install images on a wall and add decorative frames around them, enhancing the design."
 
 toc: true
