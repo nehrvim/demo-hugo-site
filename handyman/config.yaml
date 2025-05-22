@@ -187,18 +187,33 @@ params:
 
   # Members
   members:
-    enable: true
+    enable: false
     title: "My Team"
 
   # projects
   projects:
-    enable: true
+    enable: false
     title: "Our References"
 
-  # Achievements
+    # Achievements
   achievements:
-    enable: false
-    title: "Achievements"
+    enable: true
+    title: "Technologies"
+    items:
+      - title: Interior painting
+        content: I have extensive experience in interior painting, 
+          ensuring a flawless finish and a fresh look for your home.
+        url: https://example.com
+        image: /images/achievment.jpg
+      - title: Furniture restoration
+        content: I specialize in restoring and refinishing furniture, 
+          bringing new life to your beloved pieces.
+        image: /images/achievment.jpg
+      - title: Material experience
+        content: I have experience with a variety of materials, including wood, 
+          metal, and drywall, allowing me to tackle diverse projects.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievment.jpg
     
   footer:
     recentPosts:
